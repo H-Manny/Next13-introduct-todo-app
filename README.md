@@ -2,9 +2,8 @@
 こちらのチュートリアル動画を見て作ったものです。<br>
 チャンネル登録をおすすめします。
 
-**Todoアプリを作りながらNext.js13の新機能を理解してみよう ~Next.js13入門~**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VcMW2C9VNtI?si=pSaqAdwvPwidQ1Bj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+**Todoアプリを作りながらNext.js13の新機能を理解してみよう**<br>
+https://youtu.be/VcMW2C9VNtI?si=ikRYSypyzcM98wQH <br>
 
 @Shin-shibainu<br>
 https://github.com/Shin-sibainu/next.js13-todoapp-yt
