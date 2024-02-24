@@ -1,6 +1,6 @@
 "use client";
 
-import { editTodo } from '@/api';
+import { editTodo, deleteTodo } from '@/api';
 import { Task } from '@/types';
 import React, { ChangeEvent, useState, useRef, useEffect } from 'react';
 
@@ -42,6 +42,12 @@ const Todo = ({ todo }: TodoProps) => {
     setIsEditing(false);
   }
 
+  /**
+   * 削除ボタン
+   */
+  const handleDelete = async () => {
+    await deleteTodo(todo.id);
+  }
 
   return (
     <li className="flex justify-between p-4 bg-white border-l-4 border-blue-500 rounded shadow"
@@ -58,7 +64,7 @@ const Todo = ({ todo }: TodoProps) => {
       <button type="button" className="text-green-500 mr-2" onClick={handleEdit}>編集</button>
     )}
 
-      <button type="button" className="text-red-500">削除</button>
+      <button type="button" className="text-red-500" onClick={handleDelete}>削除</button>
     </div>
   </li>
   )
